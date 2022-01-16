@@ -8,22 +8,8 @@
     align-items: center;
 }
 
-.mobile {
-    display: none;
-}
-
 @media only screen and (max-width: 768px) {
     .desktop {
         display: none;
-    }
-    .mobile {
-        display: flex;
-        height: 100vh;
-        background-image: linear-gradient(160deg, #1A0C1D, #B02FB6);
-        color: #FFFFFF;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
